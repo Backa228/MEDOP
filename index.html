@@ -5,8 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MEDOP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 </head>
 <body>
+		
  	<header>
  		<div class="medopTitle">
  			<img src="MEDOP3.png" class="logo">
@@ -19,7 +21,12 @@
  	</header>
 
 <main>
-	<div class="description">
+	<!--<a-entity gltf-model="ROBOT.glb"></a-entity>
+				<a-entity id="box" geometry="primitive: box" material="color: blue"></a-entity>-->
+
+				<a-box color="blue" position="0 2 -5" scale="1 1 1"></a-box>
+				<div class="description">
+					
 		<h1><center>Опис проєкту "MEDOP"</center></h1>
 		<div class="description_grid">
 			<div> 
@@ -82,14 +89,23 @@
 		</div>
 
 		<div class="model">
-			<h1><center>3D-модель "MEDOP"</center></h1>
-					<img src="MEDOP3.png">
-					<div class="voice" id="voice1">
-	  	<a href="https://project.robocode.ua" target="_blank">Голосуй за нас</a>
-	  </div>
+			<h1>3D-модель "MEDOP"</h1>
+			<h4>*натисніть на зображення нижчеб щоб бачити 3D-модель :)</h4>
+			<a href="3-d_model.html" target="_blank">
+				<img src="MEDOP3.png"></a>
+			
 </div>
 
 	</main>
+
+	<footer>
+		<div class="contact">
+			Мій e-mail: 5380122110@gmail.com
+		</div>
+		<div class="voice" id="voice1">
+	  	<a href="https://project.robocode.ua" target="_blank">Голосуй за нас</a>
+	  </div>
+	</footer>
 
 
 
