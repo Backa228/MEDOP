@@ -136,6 +136,26 @@ img
 
 #voice1
 {
-  width: 95vw;
+  background-color: var(--lightgreen);
+  box-shadow: -2px -2px 5px white,
+               2px 2px 5px white;
+
+
+}
+
+footer
+{
+  background-color: var(--red);
+  height: 100px;
+  border-radius: 15px 15px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
+  color: white;
+}
+
+footer div
+{
+  margin: 3vw;
 }
